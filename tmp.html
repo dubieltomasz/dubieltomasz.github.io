@@ -3,7 +3,7 @@
     <head>
         <title>Tomasz Dubiel | Portfolio</title>
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-        <link rel="icon" type="image/svg+xml" href="images/favicon.svg"
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +14,6 @@
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $("#navigation").click(function(){
-                    $("#corpus").load("projectPage1.html");
-                });
-            });
-        </script>
     </head>
     <body>
         <header>
@@ -28,7 +21,7 @@
         </header>
 
         <nav>
-            <a href="#" id="navigation">Solidworks projects</a>
+            <a href="#" id="navigation" onclick="changeMain()">Solidworks projects</a>
         </nav>
 
         <main id="corpus">
