@@ -2,3 +2,9 @@
     padding: 0;
     background-color: whitesmoke;
 }
+
+footer{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}

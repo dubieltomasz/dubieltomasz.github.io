@@ -1,3 +1,3 @@
-function changeMain(){
-    $("#corpus").load("projectPage1.html");
+function changeMain(where){
+    $("#torso").load(where);
 }
