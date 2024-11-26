@@ -21,27 +21,39 @@
         </header>
 
         <nav>
-            <a href="#" onclick="changeMain()">Home</a>
-            <a href="#" onclick="changeMain()">Projects</a>
-            <a href="#" onclick="changeMain()">Certificates</a>
+            <a href="" onclick="changeMain()">Home</a>
+            <a href="" onclick="changeMain()">Projects</a>
+            <a href="" onclick="changeMain()">Certificates</a>
         </nav>
 
         <nav>
-            <a href="#" onclick="changeMain('projectPage1.html')">Solidworks projects</a>
-            <a href="#" onclick="changeMain()">c++ projects</a>
+            <a href="" onclick="changeMain('projectPage1')">Solidworks projects</a>
+            <a href="" onclick="changeMain()">c++ projects</a>
         </nav>
 
         <main id="torso">
-            abc
+            <script>
+                var url = window.location.href;
+                var path = new URL(url).searchParams.get('q');
+
+                if(path != null)
+                {
+                document.getElementById("torso").innerHTML='<object type="text/html" data="'+path+'.html" ></object>';
+                }
+                else
+                {
+                    document.getElementById("torso").innerHTML='aaa';
+                }
+            </script>
         </main>
 
         <footer>
-            <a href="#">Facebook</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
-            <a href="#">LeetCode</a>
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
+            <a href="">Facebook</a>
+            <a href="">LinkedIn</a>
+            <a href="">GitHub</a>
+            <a href="">LeetCode</a>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
         </footer>
     </body>
 </html>
