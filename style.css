@@ -3,6 +3,17 @@
     background-color: whitesmoke;
 }
 
+section{
+    background-color: lightblue;
+    width: 500px;
+    height: 200px;
+}
+
+section img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
 footer{
     width: 100vw;
     position: fixed;
