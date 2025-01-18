@@ -1,0 +1,14 @@
+{
+    "articles":[
+        {"onClick":"'m', 'part1'", "image":"Part1.PNG", "header":"Moulding", "paragraph":"Base"},
+        {"onClick":"'m', 'part2'", "image":"Part2.PNG", "header":"Moulding", "paragraph":"With fillet"},
+        {"onClick":"'m', 'part3'", "image":"Part3.PNG", "header":"Block", "paragraph":""},
+        {"onClick":"'m', 'part4'", "image":"Part4.PNG", "header":"Grip", "paragraph":""},
+        {"onClick":"'m', 'part5'", "image":"Part5.PNG", "header":"Handle", "paragraph":""},
+        {"onClick":"'m', 'part6'", "image":"Part6.PNG", "header":"Washer", "paragraph":""},
+        {"onClick":"'m', 'part7'", "image":"Part7.PNG", "header":"Lug", "paragraph":""},
+        {"onClick":"'m', 'part8'", "image":"Part8.PNG", "header":"Roll", "paragraph":""},
+        {"onClick":"'m', 'part9'", "image":"Part9.PNG", "header":"Brick", "paragraph":""},
+        {"onClick":"'m', 'part10'", "image":"Part10.PNG", "header":"Fitting", "paragraph":""}
+    ]
+}

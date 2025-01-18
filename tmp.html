@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         <title>Tomasz Dubiel | Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="/resources/images/icons/favicon.ico">
-        <link rel="icon" type="image/svg+xml" href="/resources/images/icons/favicon.svg">
+        <base href="" target="_blank">
+
+        <link rel="icon" type="image/svg+xml" href="resources/icons/favicon.svg">
+        <link rel="icon" type="image/x-icon" href="resources/icons/favicon.ico">
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,35 +13,42 @@
         <meta name="description" content="My personal website">
         <meta name="author" content="Tomasz Dubiel">
 
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="sources/styles.css">
+        <script type="text/javascript" src="sources/scripts.js"></script>
     </head>
     <body>
         <header>
             <h1>Tomasz Dubiel</h1>
         </header>
 
-        <nav>
-            <a href="" onclick="updateURLParams(); return false;">Home</a>
-            <a href="" onclick="updateURLParams(); return false;">Projects</a>
-            <a href="" onclick="updateURLParams(); return false;">Certificates</a>
-        </nav>
+        <main>
+            <nav>
+                <ul>
+                    <li onclick="updateURLParams('p', 'default')">Home</li>
+                    <li>
+                        <details>
+                            <summary><a>Projects</a></summary>
+                            <ul>
+                                <li onclick="updateURLParams('p', 'sw')">Solidworks</li>
+                                <li onclick="updateURLParams()">C++</li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li onclick="updateURLParams()">Certificates</li>
+                </ul>
+            </nav>
 
-        <nav>
-            <a href="" onclick="updateURLParams('projectPage1'); return false;">Solidworks projects</a>
-            <a href="" onclick="updateURLParams(); return false;">c++ projects</a>
-        </nav>
-
-        <main id="torso">
+            <section id="torso">
+            </section>
             <script>updateMain();</script>
         </main>
 
         <footer>
-            <a href="">Facebook</a>
-            <a href="">LinkedIn</a>
-            <a href="">GitHub</a>
-            <a href="">LeetCode</a>
-            <a href="">Instagram</a>
+            <a href="">Facebook</a> |
+            <a href="https://www.linkedin.com/in/tomasz-b-dubiel/">LinkedIn</a> |
+            <a href="https://github.com/dubieltomasz">GitHub</a> |
+            <a href="https://leetcode.com/u/tomaszDubiel/">LeetCode</a> |
+            <a href="">Instagram</a> |
             <a href="">Twitter</a>
         </footer>
     </body>
