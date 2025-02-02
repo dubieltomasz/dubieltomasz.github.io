@@ -9,6 +9,9 @@
         {"onClick":"'m', 'part7'", "image":"Part7.PNG", "header":"Lug", "paragraph":""},
         {"onClick":"'m', 'part8'", "image":"Part8.PNG", "header":"Roll", "paragraph":""},
         {"onClick":"'m', 'part9'", "image":"Part9.PNG", "header":"Brick", "paragraph":""},
-        {"onClick":"'m', 'part10'", "image":"Part10.PNG", "header":"Fitting", "paragraph":""}
+        {"onClick":"'m', 'part10'", "image":"Part10.PNG", "header":"Fitting", "paragraph":""},
+        {"onClick":"'m', 'part11'", "image":"Part11.PNG", "header":"Slipper", "paragraph":""},
+        {"onClick":"'m', 'part12'", "image":"Part12.PNG", "header":"Gun", "paragraph":""},
+        {"onClick":"'m', 'part13'", "image":"Part13.PNG", "header":"Hook", "paragraph":""}
     ]
 }
