@@ -42,46 +42,7 @@ function updateMain(){
         }
     }
     else if(urlGET.has('m')){
-        content = '<iframe src="resources/sw/html/';
-
-        switch(urlGET.get('m')){
-            case 'part1':
-                content += 'Part1.html';
-                break;
-            case 'part2':
-                content += 'Part2.html';
-                break;
-            case 'part3':
-                content += 'Part3.html';
-                break;
-            case 'part4':
-                content += 'Part4.html';
-                break;
-            case 'part5':
-                content += 'Part5.html';
-                break;
-            case 'part6':
-                content += 'Part6.html';
-                break;
-            case 'part7':
-                content += 'Part7.html';
-                break;
-            case 'part8':
-                content += 'Part8.html';
-                break;
-            case 'part9':
-                content += 'Part9.html';
-                break;
-            case 'part10':
-                content += 'Part10.html';
-                break;
-            default:
-                content = '<iframe src="index.html';
-                break;
-        }
-
-        content += '" ></iframe>';
-        document.getElementById("torso").innerHTML = content;//
+        document.getElementById("torso").innerHTML = '<iframe src="resources/sw/html/' + urlGET.get('m') + '" ></iframe>';
     }
     else{
         document.getElementById("torso").innerHTML = content;
