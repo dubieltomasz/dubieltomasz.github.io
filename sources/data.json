@@ -1,17 +1,17 @@
 {
     "articles":[
-        {"onClick":"'m', 'Part1.html'", "image":"Part1.PNG", "header":"Moulding", "paragraph":"Base"},
-        {"onClick":"'m', 'Part2.html'", "image":"Part2.PNG", "header":"Moulding", "paragraph":"With fillet"},
-        {"onClick":"'m', 'Part3.html'", "image":"Part3.PNG", "header":"Block", "paragraph":""},
-        {"onClick":"'m', 'Part4.html'", "image":"Part4.PNG", "header":"Grip", "paragraph":""},
-        {"onClick":"'m', 'Part5.html'", "image":"Part5.PNG", "header":"Handle", "paragraph":""},
-        {"onClick":"'m', 'Part6.html'", "image":"Part6.PNG", "header":"Washer", "paragraph":""},
-        {"onClick":"'m', 'Part7.html'", "image":"Part7.PNG", "header":"Lug", "paragraph":""},
-        {"onClick":"'m', 'Part8.html'", "image":"Part8.PNG", "header":"Roll", "paragraph":""},
-        {"onClick":"'m', 'Part9.html'", "image":"Part9.PNG", "header":"Brick", "paragraph":""},
-        {"onClick":"'m', 'Part10.html'", "image":"Part10.PNG", "header":"Fitting", "paragraph":""},
-        {"onClick":"'m', 'Part11.html'", "image":"Part11.PNG", "header":"Slipper", "paragraph":""},
-        {"onClick":"'m', 'Part12.html'", "image":"Part12.PNG", "header":"Gun", "paragraph":""},
-        {"onClick":"'m', 'Part13.html'", "image":"Part13.PNG", "header":"Hook", "paragraph":""}
+        {"onClick":"'m', 'Part1'", "image":"Part1.PNG", "header":"Moulding", "paragraph":"Base"},
+        {"onClick":"'m', 'Part2'", "image":"Part2.PNG", "header":"Moulding", "paragraph":"With fillet"},
+        {"onClick":"'m', 'Part3'", "image":"Part3.PNG", "header":"Block", "paragraph":""},
+        {"onClick":"'m', 'Part4'", "image":"Part4.PNG", "header":"Grip", "paragraph":""},
+        {"onClick":"'m', 'Part5'", "image":"Part5.PNG", "header":"Handle", "paragraph":""},
+        {"onClick":"'m', 'Part6'", "image":"Part6.PNG", "header":"Washer", "paragraph":""},
+        {"onClick":"'m', 'Part7'", "image":"Part7.PNG", "header":"Lug", "paragraph":""},
+        {"onClick":"'m', 'Part8'", "image":"Part8.PNG", "header":"Roll", "paragraph":""},
+        {"onClick":"'m', 'Part9'", "image":"Part9.PNG", "header":"Brick", "paragraph":""},
+        {"onClick":"'m', 'Part10'", "image":"Part10.PNG", "header":"Fitting", "paragraph":""},
+        {"onClick":"'m', 'Part11'", "image":"Part11.PNG", "header":"Slipper", "paragraph":""},
+        {"onClick":"'m', 'Part12'", "image":"Part12.PNG", "header":"Gun", "paragraph":""},
+        {"onClick":"'m', 'Part13'", "image":"Part13.PNG", "header":"Hook", "paragraph":""}
     ]
 }

@@ -42,7 +42,7 @@ function updateMain(){
         }
     }
     else if(urlGET.has('m')){
-        document.getElementById("torso").innerHTML = '<iframe src="resources/sw/html/' + urlGET.get('m') + '" ></iframe>';
+        document.getElementById("torso").innerHTML = '<iframe src="resources/sw/html/' + urlGET.get('m') + '.html" ></iframe>';
     }
     else{
         document.getElementById("torso").innerHTML = content;
