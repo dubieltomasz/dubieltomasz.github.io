@@ -16,6 +16,9 @@
         {"onClick":"'m', 'Part14'", "image":"Part14.PNG", "header":"Casing", "paragraph":""},
         {"onClick":"'m', 'Part15'", "image":"Part15.PNG", "header":"Casing", "paragraph":"Cone"},
         {"onClick":"'m', 'Part16'", "image":"Part16.PNG", "header":"Plate", "paragraph":""},
-        {"onClick":"'m', 'Assem1'", "image":"Assem1.PNG", "header":"Assembly", "paragraph":""}
+        {"onClick":"'m', 'Assem1'", "image":"Assem1.PNG", "header":"Assembly", "paragraph":""},
+        {"onClick":"'m', 'Part17'", "image":"Part17.PNG", "header":"Clutch", "paragraph":"Part 1"},
+        {"onClick":"'m', 'Part18'", "image":"Part18.PNG", "header":"Clutch", "paragraph":"Part 2"},
+        {"onClick":"'m', 'Assem2'", "image":"Assem2.PNG", "header":"Clutch", "paragraph":"Assembly"}
     ]
 }
