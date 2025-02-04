@@ -90,8 +90,6 @@ ul{
 section#torso{
     align-content: flex-start;
     background-color: var(--color-primary);
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
@@ -157,11 +155,14 @@ footer{
 
         section#torso{
             bottom: 0;
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
             position: absolute;
             top: 80px;
             width: 100%;
+        }
+
+        iframe{
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
         }
     }
 
@@ -175,13 +176,15 @@ footer{
         border-bottom-right-radius: 0;
     }
 
-    section#torso{
+    iframe{
         border-bottom-left-radius: 0;
     }
 }
 
 iframe{
     border: none;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
     height: 100%;
     width: 100%;
 }
