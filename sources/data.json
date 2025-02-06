@@ -23,6 +23,6 @@
         {"onClick":"'m', 'Part19'", "image":"Part19.PNG", "header":"Clutch 2", "paragraph":"Part 1"},
         {"onClick":"'m', 'Part20'", "image":"Part20.PNG", "header":"Clutch 2", "paragraph":"Part 2"},
         {"onClick":"'m', 'Part21'", "image":"Part21.PNG", "header":"Clutch 2", "paragraph":"Part 3"},
-        {"onClick":"'m', 'Assem2'", "image":"Assem3.PNG", "header":"Clutch 2", "paragraph":"Assembly"}
+        {"onClick":"'m', 'Assem3'", "image":"Assem3.PNG", "header":"Clutch 2", "paragraph":"Assembly"}
     ]
 }
