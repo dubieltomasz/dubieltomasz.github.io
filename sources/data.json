@@ -19,6 +19,10 @@
         {"onClick":"'m', 'Assem1'", "image":"Assem1.PNG", "header":"Assembly", "paragraph":""},
         {"onClick":"'m', 'Part17'", "image":"Part17.PNG", "header":"Clutch", "paragraph":"Part 1"},
         {"onClick":"'m', 'Part18'", "image":"Part18.PNG", "header":"Clutch", "paragraph":"Part 2"},
-        {"onClick":"'m', 'Assem2'", "image":"Assem2.PNG", "header":"Clutch", "paragraph":"Assembly"}
+        {"onClick":"'m', 'Assem2'", "image":"Assem2.PNG", "header":"Clutch", "paragraph":"Assembly"},
+        {"onClick":"'m', 'Part19'", "image":"Part19.PNG", "header":"Clutch 2", "paragraph":"Part 1"},
+        {"onClick":"'m', 'Part20'", "image":"Part20.PNG", "header":"Clutch 2", "paragraph":"Part 2"},
+        {"onClick":"'m', 'Part21'", "image":"Part21.PNG", "header":"Clutch 2", "paragraph":"Part 3"},
+        {"onClick":"'m', 'Assem2'", "image":"Assem3.PNG", "header":"Clutch 2", "paragraph":"Assembly"}
     ]
 }
